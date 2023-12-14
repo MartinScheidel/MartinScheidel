@@ -93,7 +93,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media(max-width: 800px){
+@media(max-width: 500px){
     .text-box h1{
         font-size: 30px;
     }
