@@ -18,7 +18,7 @@
     <nav>
         <a href="index.html"><img src=""></a>
         <div class="nav-links" id="navLinks">
-            <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+            <i class="fa-regular fa-circle-xmark" onclick="toggleMenu()"></i>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">Šampionát</a></li>
@@ -27,7 +27,7 @@
                 <li><a href="">Registrace</a></li>
             </ul>
         </div>
-        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
     </nav>
 <div class="text-box">
     <h1>BLAB</h1>
@@ -69,14 +69,8 @@
 <script>
     var navLinks = document.getElementById("navLinks");
 
-    function showMenu(){
-        navLinks.style.right = "0";
-        navLinks.style.display = "inline-block";
-        navLinks.style.transition = "1";
-        
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
+    function toggleMenu() {
+        navLinks.style.right = (navLinks.style.right === "0px") ? "-200px" : "0px";
     }
 </script>
 
