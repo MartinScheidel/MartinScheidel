@@ -100,6 +100,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
+        display: hidden;
         position: absolute;
         background: dimgrey;
         height: 100vh;
@@ -137,6 +138,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
+        display: hidden;
         position: absolute;
         background: dimgrey;
         height: 100vh;
