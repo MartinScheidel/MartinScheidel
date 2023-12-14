@@ -100,7 +100,7 @@ nav .fa-solid{
         display: block;
     }
     .nav-links{
-        display: hidden;
+        display: none;
         position: absolute;
         background: dimgrey;
         height: 100vh;
