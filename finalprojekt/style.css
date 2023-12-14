@@ -93,7 +93,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media screen and (max-width 700px){
+@media screen and (max-width: 700px){
     .text-box h1{
         font-size: 30px;
     }
