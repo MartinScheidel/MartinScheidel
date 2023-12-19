@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>CDDRIFT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"/>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="championship.html">Šampionát</a></li>
+                <li><a href="about.html">O Nás</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="registration.html">Registrace</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>CDDRIFT</h1>
+    <p>Děláme virtuální šimponáty v driftu ještě dostupnější a otevřenějsí.</p>
+    <h2>O Šampionátu</h2>
+</div>
+</section>
+<section class="introduction-section">
+    <div class="container">
+        <h1>Pro koho je?</h1>
+        <p>Naše šampionáty josu pro každého s chutí si zajezdit. Nezáleží na tom jestli jezdíte na na obyčejném ovladači nebo máte sestavu za desítky tisíc.
+        Pro tyto případy jsem náš šampionát rozdělily do několika kategorií. Hlavní dělení je právě sestava na, které závodníci jezdi.
+        <p />
+        <p>Nezáleží jestli jste začátečníci nebo profesionálové. Stačí se jen u nás zaregistrovat a včas se přihlásit do závodu.</p>
+        <p></a></p>
+        <h1>Jaké auta se používají?</h1>
+        <p>Používají se auta přévažně s náhonem na zadní nápravu a převažují typy kupé a sedan. Vozidla stejně jako jezdce máme také rozdělené do kategorií podle možnosti řidiců.
+            Pro absolutní začátečníky využíváme vozidla od WDT a jejich street pack nebo auta od ADC a jejich 420pack. Jsou vozy spíš určené pro začátečníky s menším výkonem a menší
+            přilnavostí pneumatik.
+        <p />
+        <p>Pro pokročilejší máme po domluvě s jedním největšich virtuálním driftovacím šampionátem VDC možnost použít jejich veřejné vozy pro náš šampionát šampionát.
+        Tyto auta dosahují výkonu až tísice koní. Mají na míru ušité fyzike a pneumatiky. Zajet s nimi skvělou jízdu chce hodně usiílí, čas a vědět si jak si auto správně nastavit.</p>
+        <p>Pro ty co se toho opravdu nebojí máme otevřenou kategorii, kde si každý může vzít svůj vlastní vůz. Ten ale doporučujeme tzv. zakryptovat aby se nedal otevřít model auta programem třetí strany.
+            Tyto vozy se řídí pravidly pro šampionát VDC. Výkon je omezen a pneumatiky se určují dle váhy vozu. Více zde.</a></p>
+        <h1>Kde se jezdí,</h1>
+        <p>Jak již zde bylo mnohokrát řečeno tak i tratě dělíme pro začátečnícké a pokročilé. Pro pokročilé využíváme převážne tratě ze šampionátu VDC ale také i kopie reálných tratí např. z Formula Drift,
+        DMEC a CDS. Tyto tratě jsou plné záludných zatáček a zón, kterýma musí jezdci projet.
+        <p />
+        <p>Na druhou stranu. Zatáčecníci to mají o dost jednoduší. Zde se totiž žádné zóny nevyskytují a jedná se pouze o to si zajezdit s ostaními.
+            Zde se používají převážně otevřenější a širší tratě, které jsou zároveň pomalejší.</p>
+        </a></p>
+    </div>
+</section>
+<section class="footer">
+    <h4>kontakt</h4>
+    <p>Zde naleznete veškěré důležité odkazy a kontaktní informace</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-google-drive"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-solid fa-phone"></i>
+    </div>
+</section>
+
+
+
+
+
+
+<!---JavaScript na responsivní menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
