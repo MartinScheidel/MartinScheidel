@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(foto/background.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(foto/bg.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -72,7 +72,7 @@ nav img{
     display: inline-block;
     text-decoration: none;
     color: white;
-    border:1px solid blue;
+    border:1px solid #626262;
     padding:12px 34px;
     font-size: 13px;
     background: transparent;
@@ -80,8 +80,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid black;
-    background: black;
+    border: 1px solid #626262;
+    background: #626262;
     transition: 1s;
 }
 
@@ -148,4 +148,108 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.champion-col{
+    flex-basis: 31%;
+    background: lightyellow;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.champion-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+.judges{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.judges-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.judges-col img{
+    width: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.rules{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.rules-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.rules-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.rules-col p{
+    padding: 0;
+}
+.rules-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
