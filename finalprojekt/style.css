@@ -79,6 +79,12 @@ nav img{
     position: relative;
     cursor: pointer;
 }
+video{
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    left: 30%;
+}
 .hero-btn:hover{
     border: 1px solid #626262;
     background: #626262;
