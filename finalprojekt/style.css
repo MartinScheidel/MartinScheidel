@@ -300,3 +300,46 @@ h3{
     margin-right: auto;
     margin-top: 2em;
 }
+
+h1{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.kontakt p{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kontakt h1{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kontakt .fa-regular{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kontakt .fa-solid{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kontakt .fa-brands{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
