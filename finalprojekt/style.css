@@ -182,6 +182,12 @@ h3{
     .row{
         flex-direction: column;
     }
+    .judges-col-about{
+        flex-direction: column;
+    }
+    .judges-col-about img{
+        flex-direction: column;
+    }
 }
 
 
